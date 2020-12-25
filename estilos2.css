@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial ;
+}
+
+
+header img{
+    height: 700px;
+    width: 100%;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px ;
+    object-fit: cover;
+}
+
+
+.content1{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+
+}
+
+.content1 img{
+    height: 100px;
+    width: 100px;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+.content1 ul{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -10%;
+    
+}
+
+.content1 ul li{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 15px;
+    font-family: Arial ;
+}
+
+.content1 ul li a{
+   font-family: Arial ;
+    font-size: 35px;
+    color: rgb(100, 17, 17);
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.inicio{
+    position: absolute;
+    margin-top: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.cuadrado1{
+    border: 1px solid  ;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.589) ;
+    margin-right: % ;
+    
+    font-family: Arial ;
+    
+    height: 200px;
+    margin-top: 5.4%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.cuadrado1 h1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial ;
+}
+
+
+.inicio h1{
+    font-family: Arial ;
+    font-weight: 800;
+    color:  rgb(100, 17, 17);
+    align-self: flex-end;
+    width: 100%;
+    margin-left: -5%;
+}
+
+.inicio p{
+    align-self: flex-end;
+    width: 90%;
+    margin-right: 35px;
+    font-family: Arial ;
+    font-size: 17px;
+    font-weight: 600;
+    color: #151719;
+    align-self: flex-end;
+    width: 90%;
+    margin-right: 35px;
+
+}

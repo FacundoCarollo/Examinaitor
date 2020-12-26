@@ -3,7 +3,11 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-    font-family: Arial ;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
 }
 
 
@@ -29,7 +33,7 @@ header img{
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
-
+    font-family: Helvetica, sans-serif;
 }
 
 
@@ -52,11 +56,11 @@ header img{
 .content1 ul li{
     
     margin-right: 15px;
-    font-family: Arial ;
+   
 }
 
 .content1 ul li a{
-   font-family: Arial ;
+   
     font-size: 35px;
     color: rgb(100, 17, 17);
     font-weight: 600;
@@ -70,20 +74,21 @@ header img{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-left: -5%;
 }
 
 
 
 .cuadrado1{
 
-    width: 100%;
+    width: 50%;
    
     height: 150px;
     
-    font-family: Arial ;
+    font-family: 
     
-    
-    margin-top: -5%;
+    border: 1px solid blue;
+    text-justify: justify;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -97,51 +102,59 @@ header img{
 .cuadrado1 h1{
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial ;
+    justify-content: center ;
+    text-justify: justify;
+ 
+    font-size: 50px;
+    text-align: justify;
+   
+   
+    
 }
 
 
 .inicio h1{
-    font-family: Arial ;
+   
     font-weight: 600;
     color:  rgb(100, 17, 17);
-    align-self: flex-start;
-    width: 30%;
-    margin-top: 5%;
-    margin-left: -8%;
+    align-self: center;
+    width: 80%;
+   
+    margin-top: 0%;
+    text-justify: justify;
     
     
 }
 
 .inicio h2{
-    align-self: flex-start;
-    width: 30%;
-    margin-top:  -15%;
-    font-family: Arial ;
-    font-size: 20px;
+    
+    width: 90%;
+    
+    font-size: 18px;
     font-weight: 600;
     color: #fff;
-    align-self: flex-start;
+    align-self: flex-end;
     margin-top: 5%;
-    margin-left: 5%;
+   
+  
   
     
 
 }
 .cuadrado1 h1{
-    margin-top: 1%;
+ 
+
 }
 
 .cuadrado1 h2{
     margin-top: -0.3%;
+    margin-left: -15%;
 }
 
 #centro{
     display: flex;
     flex-flow: column;
-    font-family: Arial ;
+   
 }
 
 
@@ -168,49 +181,60 @@ header img{
     width: 100%;
     height: 600px;
     margin-top: 150px;
-    font-family: Arial ;
+   
 }
 
 
-.primero{
-  
-    font-family: Arial ;
-    
-    
-  
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-}
+
 
 
 
 .primero h1{
-  font-size: 30px;
+  
   color:rgb(100, 17, 17);
-  justify-content: center;
-    align-items: center;
-    font-family: Arial ;
-    margin-top: 20%;
-    margin-left: 5%;
+  justify-content: flex-end;
+   align-items: flex-end; 
+   width: 90%;
+    
+    
 }
 
 .primero h2{
-color:  #fff;
-font-size: 25px;
-font-family: Arial ;
+    
+font-size: 18px;
+width: 90%;
 margin-left: 5%;
 }
 
-.lugar1 h1{
-    color: rgb(100, 17, 17);
-    font-family: Arial ;
+.lugar1{
+    position: absolute;
+    margin-top: ;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+   
 }
 
+.lugar1 h1{
+    
+    font-weight: 600;
+    color:  rgb(100, 17, 17);
+    align-self: center;
+    width: 100%;
+     font-size: 50px;
+    margin-top: 30%;
+    margin-left: 5% ;
+    
+}
+.lugar1 h2{
+    width: 40%;
+    font-size: 18px;
+    color:  #fff;
+   
+
+}
 
 
 #seccion2{
@@ -235,22 +259,22 @@ margin-left: 5%;
     flex-flow: column;
     align-items: center;
     background-color: #151719;
-    width: 50%;
+    width: 100%;
     max-width: -5%;
 }
 
 #brujula h1{
     color:rgb(100, 17, 17);
-    font-size: 30px;
+    font-size: 50px;
     background-color: #151719;
     font-weight: 600;
-    font-family: Arial ;
+    
 }
 
 #brujula h2{
     color: rgb(255, 255, 255);
     font-size: 20px;
-    font-family: Arial ;
+    
     font-weight: 600;
     width: 70%;
 }
@@ -280,24 +304,29 @@ margin-left: 5%;
     width: 100%;
     height: 600px;
     background-image: url(img/balcarce0.jpg);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 
 
 .lugar3 h1{
     display: flex;
- align-items: flex-start;
- justify-content: flex-start;
- margin-top: 20%;
- margin-left: 5%;
+ align-items: flex-end;
+ justify-content: center ;
+ margin-top: 1%;
+ margin-left: 13%;
+ width: 50%;
 }
 
 .lugar3 h2{
 display: flex;
-align-items: flex-start;
-justify-content: flex-start ;
+align-items: flex-end;
+justify-content: flex-end;
 color: #fff;
-margin-left: 5%;
+margin-left: 47%;
+font-size: 18px;
+
+width: 50%;
 }
 
 .lugar3{
@@ -309,8 +338,8 @@ margin-left: 5%;
 .lugar3 h1{
     color: rgb(100, 17, 17);;
     width: 90%;
-    font-size: 30px;
-    font-family: Arial ;
+    font-size: 50px;
+    
 }
 
 
@@ -330,6 +359,7 @@ footer{
     display: flex;
     flex-flow: column wrap;
 color: rgb(100, 17, 17);
+font-size: 16px;
 }
 
 #redes{
@@ -352,7 +382,7 @@ color: rgb(100, 17, 17);
 footer ul li{
     color: rgb(184, 182, 182);
     font-weight: 500;
-    font-family: Arial ;
+ 
     font-size: 13px;
 }
 

@@ -31,8 +31,13 @@ header img{
     width: 100px;
     margin-left: 5%;
     border-radius: 50%;
+ 
 }
 
+.content1 img:hover{
+    transform: rotate(360deg);
+    transition: all 500ms ease;
+}
 .content1 ul{
     display: flex;
     flex-flow: row wrap;

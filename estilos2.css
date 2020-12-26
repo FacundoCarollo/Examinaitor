@@ -287,3 +287,183 @@ justify-content: center;
     font-family: Arial ;
     font-weight: 500;
 }
+
+
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color:#151719;
+    align-items: center;
+    height: 150px;
+}
+
+
+#derechos{
+    display: flex;
+    flex-flow: column wrap;
+color: rgb(100, 17, 17);
+}
+
+#redes{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    width: 33%;
+    margin-left: 50px;
+}
+
+
+
+#redes2{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 34%;
+}
+
+footer ul li{
+    color: rgb(184, 182, 182);
+    font-weight: 500;
+    font-family: Arial ;
+    font-size: 13px;
+}
+
+#redes li a img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#yo{
+    width: 33%;
+    justify-content: center;
+    display: flex;
+}
+
+#yo img{
+    height: 100px;
+    width: all;    
+    border-radius: 50%;
+}
+
+
+#redes .fa-instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fa-instagram{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+ color: #fff;
+ border-radius: 20%;
+ background: #f09433;
+ background: #f09433;
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.8s;
+
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+transition-property: transform;
+
+}
+
+
+.fa-instagram:hover{
+  
+   
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
+
+
+#redes .fa-facebook-f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.fa-facebook-f{
+   color: #fff;
+   font-size: 50px;
+   width: 50px;
+   height: 50px;
+   border-radius: 20%;
+    -webkit-transition-duration: 0.8s;
+ -moz-transition-duration: 0.8s;
+ -o-transition-duration: 0.8s;
+ transition-duration: 0.8s;
+ background-color: #3B5998;
+ -webkit-transition-property: -webkit-transform;
+ -moz-transition-property: -moz-transform;
+ -o-transition-property: -o-transform;
+ transition-property: transform;
+}
+
+.fa-facebook-f:hover{
+  
+   
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
+
+
+
+
+#redes .fa-github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+
+.fa-github{
+    
+    color: #fff;
+    width: 52px;
+    height: 50px;
+    font-size: 50px;
+    background-color: black;
+    -webkit-transition-duration: 0.8s;
+ -moz-transition-duration: 0.8s;
+ -o-transition-duration: 0.8s;
+ transition-duration: 0.8s;
+ border-radius: 20%;
+ -webkit-transition-property: -webkit-transform;
+ -moz-transition-property: -moz-transform;
+ -o-transition-property: -o-transform;
+ transition-property: transform;
+}
+
+.fa-github:hover{
+
+    
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
+
+
+
+
